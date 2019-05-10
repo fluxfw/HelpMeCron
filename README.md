@@ -19,8 +19,6 @@ Cron:
 * ILIAS 5.3 or ILIAS 5.4
 * PHP >=7.0
 
-Please use it for further development!
-
 ### Adjustment suggestions
 * Adjustment suggestions by pull requests
 * Adjustment suggestions which are not yet worked out in detail by Jira tasks under https://jira.studer-raimann.ch/projects/PLHM
