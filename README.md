@@ -15,11 +15,9 @@ Update and activate the plugin in the ILIAS Plugin Administration
 Cron:
 ![Cron](./doc/screenshots/cron.png)
 
-### Dependencies
+### Requirements
 * ILIAS 5.3 or ILIAS 5.4
 * PHP >=7.0
-* [composer](https://getcomposer.org)
-* [HelpMe](https://github.com/studer-raimann/HelpMe)
 
 Please use it for further development!
 
