@@ -5,7 +5,6 @@ require_once __DIR__ . "/../vendor/autoload.php";
 
 use srag\Plugins\HelpMe\Job\FetchJiraTicketsJob;
 use srag\Plugins\HelpMe\Utils\HelpMeTrait;
-use srag\RemovePluginDataConfirm\HelpMe\PluginUninstallTrait;
 
 /**
  * Class ilHelpMeCronPlugin
@@ -15,13 +14,10 @@ use srag\RemovePluginDataConfirm\HelpMe\PluginUninstallTrait;
 class ilHelpMeCronPlugin extends ilCronHookPlugin
 {
 
-    use PluginUninstallTrait;
     use HelpMeTrait;
     const PLUGIN_ID = "srsucron";
     const PLUGIN_NAME = "HelpMeCron";
     const PLUGIN_CLASS_NAME = ilHelpMePlugin::class;
-    const REMOVE_PLUGIN_DATA_CONFIRM = false;
-    const REMOVE_PLUGIN_DATA_CONFIRM_CLASS_NAME = HelpMeRemoveDataConfirm::class;
     /**
      * @var self|null
      */
@@ -84,14 +80,5 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
             default:
                 return null;
         }
-    }
-
-
-    /**
-     * @inheritdoc
-     */
-    protected function deleteData()/*: void*/
-    {
-        // Nothing to delete
     }
 }
