@@ -49,7 +49,7 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
 
 
     /**
-     * @return string
+     * @inheritDoc
      */
     public function getPluginName() : string
     {
@@ -58,7 +58,7 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
 
 
     /**
-     * @return ilCronJob[]
+     * @inheritDoc
      */
     public function getCronJobInstances() : array
     {
@@ -67,13 +67,9 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
 
 
     /**
-     * @param string $a_job_id
-     *
-     * @return ilCronJob|null
+     * @inheritDoc
      */
-    public function getCronJobInstance(/*string*/
-        $a_job_id
-    )/*: ?ilCronJob*/
+    public function getCronJobInstance(/*string*/ $a_job_id)/*: ?ilCronJob*/
     {
         switch ($a_job_id) {
             case FetchJiraTicketsJob::CRON_JOB_ID:
