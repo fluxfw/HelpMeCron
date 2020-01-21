@@ -4,7 +4,6 @@ require_once __DIR__ . "/../../../../UIComponent/UserInterfaceHook/HelpMe/vendor
 require_once __DIR__ . "/../vendor/autoload.php";
 
 use srag\DIC\HelpMe\DICTrait;
-use srag\Plugins\HelpMe\Job\FetchJiraTicketsJob;
 use srag\Plugins\HelpMe\Utils\HelpMeTrait;
 
 /**
@@ -62,7 +61,7 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
      */
     public function getCronJobInstances() : array
     {
-        return [new FetchJiraTicketsJob()];
+        return self::helpMe()->jobs()->factory()->newInstances();
     }
 
 
@@ -71,12 +70,6 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
      */
     public function getCronJobInstance(/*string*/ $a_job_id)/*: ?ilCronJob*/
     {
-        switch ($a_job_id) {
-            case FetchJiraTicketsJob::CRON_JOB_ID:
-                return new FetchJiraTicketsJob();
-
-            default:
-                return null;
-        }
+        return self::helpMe()->jobs()->factory()->newInstanceById($a_job_id);
     }
 }
