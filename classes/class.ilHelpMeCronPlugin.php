@@ -3,7 +3,7 @@
 require_once __DIR__ . "/../../../../UIComponent/UserInterfaceHook/HelpMe/vendor/autoload.php";
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use srag\Plugins\HelpMe\Job\FetchJiraTicketsJob;
+use srag\DIC\HelpMe\DICTrait;
 use srag\Plugins\HelpMe\Utils\HelpMeTrait;
 
 /**
@@ -14,6 +14,7 @@ use srag\Plugins\HelpMe\Utils\HelpMeTrait;
 class ilHelpMeCronPlugin extends ilCronHookPlugin
 {
 
+    use DICTrait;
     use HelpMeTrait;
     const PLUGIN_ID = "srsucron";
     const PLUGIN_NAME = "HelpMeCron";
@@ -47,7 +48,7 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
 
 
     /**
-     * @return string
+     * @inheritDoc
      */
     public function getPluginName() : string
     {
@@ -56,29 +57,19 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
 
 
     /**
-     * @return ilCronJob[]
+     * @inheritDoc
      */
     public function getCronJobInstances() : array
     {
-        return [new FetchJiraTicketsJob()];
+        return self::helpMe()->jobs()->factory()->newInstances();
     }
 
 
     /**
-     * @param string $a_job_id
-     *
-     * @return ilCronJob|null
+     * @inheritDoc
      */
-    public function getCronJobInstance(/*string*/
-        $a_job_id
-    )/*: ?ilCronJob*/
+    public function getCronJobInstance(/*string*/ $a_job_id)/*: ?ilCronJob*/
     {
-        switch ($a_job_id) {
-            case FetchJiraTicketsJob::CRON_JOB_ID:
-                return new FetchJiraTicketsJob();
-
-            default:
-                return null;
-        }
+        return self::helpMe()->jobs()->factory()->newInstanceById($a_job_id);
     }
 }
