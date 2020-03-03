@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.0]
+- ILIAS 6 support
+- Remove ILIAS 5.3 support
+
 ## [1.2.0]
 - Some improvments
 
