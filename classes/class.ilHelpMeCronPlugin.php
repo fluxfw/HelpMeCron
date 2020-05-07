@@ -1,6 +1,5 @@
 <?php
 
-require_once __DIR__ . "/../../../../UIComponent/UserInterfaceHook/HelpMe/vendor/autoload.php";
 require_once __DIR__ . "/../vendor/autoload.php";
 
 use srag\DIC\HelpMe\DICTrait;
@@ -16,6 +15,7 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
 
     use DICTrait;
     use HelpMeTrait;
+
     const PLUGIN_ID = "srsucron";
     const PLUGIN_NAME = "HelpMeCron";
     const PLUGIN_CLASS_NAME = ilHelpMePlugin::class;
