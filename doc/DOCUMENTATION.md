@@ -1,1 +1,1 @@
-## HelpMeCron Documentation
+# HelpMeCron ILIAS Plugin Documentation
