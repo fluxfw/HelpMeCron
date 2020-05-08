@@ -1,10 +1,16 @@
 This is an OpenSource project by studer + raimann ag, CH-Burgdorf (https://studer-raimann.ch)
 
+## Description
+See in [doc/DESCRIPTION.md](./doc/DESCRIPTION.md)
+
+## Documentation
+See in [doc/DOCUMENTATION.md](./doc/DOCUMENTATION.md)
+
 ## Installation
 
-First install and enable [HelpMe](https://github.com/studer-raimann/HelpMe).
+First install and enable [HelpMe Plugin](https://github.com/studer-raimann/HelpMe).
 
-### Install HelpMeCron-Plugin
+### Install HelpMeCron Plugin
 Start at your ILIAS root directory
 ```bash
 mkdir -p Customizing/global/plugins/Services/Cron/CronHook
@@ -12,10 +18,6 @@ cd Customizing/global/plugins/Services/Cron/CronHook
 git clone https://github.com/studer-raimann/HelpMeCron.git HelpMeCron
 ```
 Update and activate the plugin in the ILIAS Plugin Administration
-
-### Some screenshots
-Cron:
-![Cron](./doc/screenshots/cron.png)
 
 ### Requirements
 * ILIAS 5.3 or ILIAS 5.4
