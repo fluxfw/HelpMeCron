@@ -20,8 +20,8 @@ git clone https://github.com/studer-raimann/HelpMeCron.git HelpMeCron
 Update and activate the plugin in the ILIAS Plugin Administration
 
 ## Requirements
-* ILIAS 5.4 or ILIAS 6
-* PHP >=7.0
+* ILIAS 6
+* PHP >=7.2
 
 ## Adjustment suggestions
 * External users can report suggestions and bugs at https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLHM

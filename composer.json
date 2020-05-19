@@ -20,7 +20,7 @@
     "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLHM"
   },
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.2"
   },
   "autoload": {
     "psr-4": {
