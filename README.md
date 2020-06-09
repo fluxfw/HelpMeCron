@@ -20,7 +20,7 @@ git clone https://github.com/studer-raimann/HelpMeCron.git HelpMeCron
 Update and activate the plugin in the ILIAS Plugin Administration
 
 ## Requirements
-* ILIAS 6
+* ILIAS 6.0 - 6.999
 * PHP >=7.2
 
 ## Adjustment suggestions
