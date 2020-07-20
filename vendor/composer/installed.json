@@ -1,1 +1,47 @@
-[]
+[
+    {
+        "name": "srag/librariesnamespacechanger",
+        "version": "v0.9.3",
+        "version_normalized": "0.9.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
+            "reference": "f1d8d9ce97723b1bc5850dcbb2031bca38fe6030"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/f1d8d9ce97723b1bc5850dcbb2031bca38fe6030",
+            "reference": "f1d8d9ce97723b1bc5850dcbb2031bca38fe6030",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "time": "2020-06-09T10:27:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "srag\\LibrariesNamespaceChanger\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0-only"
+        ],
+        "authors": [
+            {
+                "name": "studer + raimann ag - Team Custom 1",
+                "email": "support-custom1@studer-raimann.ch",
+                "homepage": "https://studer-raimann.ch",
+                "role": "Developer"
+            }
+        ],
+        "description": "Change namespace of libraries to plugin namespace",
+        "homepage": "https://github.com/studer-raimann/LibrariesNamespaceChanger",
+        "keywords": [
+            "ILIAS",
+            "libraries"
+        ]
+    }
+]

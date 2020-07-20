@@ -1,6 +1,12 @@
 {
   "name": "srag/plugins/helpmecron",
   "description": "",
+  "version": "1.3.0",
+  "ilias_plugin": {
+    "id": "srsucron",
+    "ilias_min_version": "6.0",
+    "ilias_max_version": "6.999"
+  },
   "type": "project",
   "keywords": [
     "ILIAS",
@@ -20,7 +26,8 @@
     "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLHM"
   },
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.2",
+    "srag/librariesnamespacechanger": ">=0.1.0"
   },
   "autoload": {
     "psr-4": {
@@ -28,11 +35,21 @@
     },
     "classmap": [
       "classes/"
+    ],
+    "files": [
+      "../../../UIComponent/UserInterfaceHook/HelpMe/vendor/autoload.php"
     ]
   },
   "config": {
     "classmap-authoritative": true,
     "optimize-autoloader": true,
     "sort-packages": true
+  },
+  "scripts": {
+    "pre-autoload-dump": [
+      "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
+      "srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
+      "srag\\LibrariesNamespaceChanger\\UpdatePluginReadme::updatePluginReadme"
+    ]
   }
 }

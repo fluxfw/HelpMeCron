@@ -1,6 +1,5 @@
 <?php
 
-require_once __DIR__ . "/../../../../UIComponent/UserInterfaceHook/HelpMe/vendor/autoload.php";
 require_once __DIR__ . "/../vendor/autoload.php";
 
 use srag\DIC\HelpMe\DICTrait;
@@ -16,13 +15,23 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
 
     use DICTrait;
     use HelpMeTrait;
+
+    const PLUGIN_CLASS_NAME = ilHelpMePlugin::class;
     const PLUGIN_ID = "srsucron";
     const PLUGIN_NAME = "HelpMeCron";
-    const PLUGIN_CLASS_NAME = ilHelpMePlugin::class;
     /**
      * @var self|null
      */
     protected static $instance = null;
+
+
+    /**
+     * ilHelpMeCronPlugin constructor
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
 
     /**
@@ -39,20 +48,11 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
 
 
     /**
-     * ilHelpMeCronPlugin constructor
-     */
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
-
-    /**
      * @inheritDoc
      */
-    public function getPluginName() : string
+    public function getCronJobInstance(/*string*/ $a_job_id) : ?ilCronJob
     {
-        return self::PLUGIN_NAME;
+        return self::helpMe()->jobs()->factory()->newInstanceById($a_job_id);
     }
 
 
@@ -68,8 +68,8 @@ class ilHelpMeCronPlugin extends ilCronHookPlugin
     /**
      * @inheritDoc
      */
-    public function getCronJobInstance(/*string*/ $a_job_id)/*: ?ilCronJob*/
+    public function getPluginName() : string
     {
-        return self::helpMe()->jobs()->factory()->newInstanceById($a_job_id);
+        return self::PLUGIN_NAME;
     }
 }
