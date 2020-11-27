@@ -27,7 +27,11 @@ Update, activate and config the plugin in the ILIAS Plugin Administration
 
 ## Description
 
-First install and enable [HelpMe](https://github.com/studer-raimann/HelpMe).
+### Base plugin
+
+First you need to install the [HelpMe](https://github.com/studer-raimann/HelpMe) plugin
+
+### Cron jobs
 
 Cron:
 ![Cron](./doc/images/cron.png)
