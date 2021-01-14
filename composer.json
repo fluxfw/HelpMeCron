@@ -14,8 +14,10 @@
   },
   "type": "project",
   "keywords": [
-    "ILIAS",
-    "Plugin"
+    "cron",
+    "ilias",
+    "job",
+    "plugin"
   ],
   "homepage": "https://github.com/studer-raimann/HelpMeCron",
   "license": "GPL-3.0-only",
