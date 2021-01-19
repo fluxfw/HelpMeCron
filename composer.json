@@ -1,18 +1,25 @@
 {
-  "name": "srag/plugins/helpmecron",
-  "description": "",
-  "version": "1.3.1",
-  "ilias_plugin": {
-    "id": "srsucron",
-    "name": "HelpMeCron",
-    "ilias_min_version": "6.0",
-    "ilias_max_version": "6.999",
-    "slot": "Services/Cron/CronHook"
+  "name": "srag/helpmecron",
+  "description": "HelpMeCron",
+  "version": "1.3.2",
+  "extra": {
+    "ilias_plugin": {
+      "id": "srsucron",
+      "name": "HelpMeCron",
+      "ilias_min_version": "6.0",
+      "ilias_max_version": "6.999",
+      "slot": "Services/Cron/CronHook"
+    },
+    "generate_plugin_readme_template": "SRAG_ILIAS_PLUGIN"
   },
   "type": "project",
   "keywords": [
-    "ILIAS",
-    "Plugin"
+    "cron",
+    "help",
+    "ilias",
+    "job",
+    "plugin",
+    "support"
   ],
   "homepage": "https://github.com/studer-raimann/HelpMeCron",
   "license": "GPL-3.0-only",
@@ -29,6 +36,7 @@
   },
   "require": {
     "php": ">=7.2",
+    "srag/generateplugininfoshelper": ">=0.1.0",
     "srag/librariesnamespacechanger": ">=0.1.0"
   },
   "autoload": {
@@ -50,8 +58,8 @@
   "scripts": {
     "pre-autoload-dump": [
       "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
-      "srag\\LibrariesNamespaceChanger\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
-      "srag\\LibrariesNamespaceChanger\\UpdatePluginReadme::updatePluginReadme"
+      "srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
+      "srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginReadme::generatePluginReadme"
     ]
   }
 }

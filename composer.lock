@@ -4,26 +4,80 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d316bc51d1e255d8fd45fcf41cb4270f",
+    "content-hash": "00188b3ed103b12454cb4e02feb76db1",
     "packages": [
         {
-            "name": "srag/librariesnamespacechanger",
-            "version": "v0.10.4",
+            "name": "srag/generateplugininfoshelper",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
-                "reference": "cf71c18cd46491444f1bd3daefb0aace41bc790f"
+                "url": "https://github.com/studer-raimann/GeneratePluginInfosHelper.git",
+                "reference": "c27b765782c9533f6f6f67e2b1a705f52df377a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/cf71c18cd46491444f1bd3daefb0aace41bc790f",
-                "reference": "cf71c18cd46491444f1bd3daefb0aace41bc790f",
+                "url": "https://api.github.com/repos/studer-raimann/GeneratePluginInfosHelper/zipball/c27b765782c9533f6f6f67e2b1a705f52df377a1",
+                "reference": "c27b765782c9533f6f6f67e2b1a705f52df377a1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0"
             },
             "type": "library",
+            "extra": {
+                "generate_plugin_readme_template": "SRAG_LIBRARY"
+            },
+            "autoload": {
+                "psr-4": {
+                    "srag\\GeneratePluginInfosHelper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "studer + raimann ag - Team Custom 1",
+                    "email": "support-custom1@studer-raimann.ch",
+                    "homepage": "https://studer-raimann.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Automatic generate plugin infos such README.md, plugin.php, plugin.xml, ... from composer.json",
+            "homepage": "https://github.com/studer-raimann/GeneratePluginInfosHelper",
+            "keywords": [
+                "Infos",
+                "generate",
+                "helper",
+                "plugin"
+            ],
+            "time": "2020-11-30T14:15:16+00:00"
+        },
+        {
+            "name": "srag/librariesnamespacechanger",
+            "version": "0.14.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
+                "reference": "196916a264362f10fe508f718c5e939955678c5a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/196916a264362f10fe508f718c5e939955678c5a",
+                "reference": "196916a264362f10fe508f718c5e939955678c5a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "srag/generateplugininfoshelper": ">=0.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "generate_plugin_readme_template": "SRAG_LIBRARY"
+            },
             "autoload": {
                 "psr-4": {
                     "srag\\LibrariesNamespaceChanger\\": "src/"
@@ -44,10 +98,11 @@
             "description": "Change namespace of libraries to plugin namespace",
             "homepage": "https://github.com/studer-raimann/LibrariesNamespaceChanger",
             "keywords": [
-                "ILIAS",
-                "libraries"
+                "changer",
+                "libraries",
+                "namespace"
             ],
-            "time": "2020-09-11T10:39:59+00:00"
+            "time": "2020-11-13T09:54:27+00:00"
         }
     ],
     "packages-dev": [],

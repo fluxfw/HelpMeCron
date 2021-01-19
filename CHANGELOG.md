@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.3.2]
+- Update readme and keywords
+
 ## [1.3.1]
 - Fixes
 

@@ -1,1 +1,0 @@
-# HelpMeCron ILIAS Plugin Documentation
