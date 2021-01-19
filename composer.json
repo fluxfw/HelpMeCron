@@ -1,7 +1,7 @@
 {
   "name": "srag/helpmecron",
   "description": "HelpMeCron",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "extra": {
     "ilias_plugin": {
       "id": "srsucron",
