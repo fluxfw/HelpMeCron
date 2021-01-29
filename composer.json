@@ -8,7 +8,8 @@
       "name": "HelpMeCron",
       "ilias_min_version": "6.0",
       "ilias_max_version": "6.999",
-      "slot": "Services/Cron/CronHook"
+      "slot": "Services/Cron/CronHook",
+      "supports_cli_setup": true
     },
     "generate_plugin_readme_template": "SRAG_ILIAS_PLUGIN",
     "long_description_template": "src/LONG_DESCRIPTION.md"
