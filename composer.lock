@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "srag/generateplugininfoshelper",
-            "version": "2.8.0",
+            "version": "2.9.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/studer-raimann/GeneratePluginInfosHelper.git",
-                "reference": "7ff2f5e06faf8e4f4562724a758633d8d11b9fac"
+                "url": "https://github.com/fluxfw/GeneratePluginInfosHelper.git",
+                "reference": "0fda4a1cb03f588afe1fef352fde9601648f6c4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studer-raimann/GeneratePluginInfosHelper/zipball/7ff2f5e06faf8e4f4562724a758633d8d11b9fac",
-                "reference": "7ff2f5e06faf8e4f4562724a758633d8d11b9fac",
+                "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/0fda4a1cb03f588afe1fef352fde9601648f6c4e",
+                "reference": "0fda4a1cb03f588afe1fef352fde9601648f6c4e",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "srag\\GeneratePluginInfosHelper\\HelpMeCron\\": "src/"
+                    "srag\\GeneratePluginInfosHelper\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -46,27 +46,27 @@
                 }
             ],
             "description": "Automatic generate plugin infos such README.md, plugin.php, plugin.xml, ... from composer.json",
-            "homepage": "https://github.com/studer-raimann/GeneratePluginInfosHelper",
+            "homepage": "https://github.com/fluxfw/GeneratePluginInfosHelper",
             "keywords": [
                 "Infos",
                 "generate",
                 "helper",
                 "plugin"
             ],
-            "time": "2021-01-25T06:24:01+00:00"
+            "time": "2021-03-03T09:17:27+00:00"
         },
         {
             "name": "srag/librariesnamespacechanger",
-            "version": "0.15.0",
+            "version": "0.15.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
-                "reference": "37b73f814b319a9a05664df994423c412e2b52f3"
+                "url": "https://github.com/fluxfw/LibrariesNamespaceChanger.git",
+                "reference": "4d9567c0e83f325849e948960382c9cde612d474"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/37b73f814b319a9a05664df994423c412e2b52f3",
-                "reference": "37b73f814b319a9a05664df994423c412e2b52f3",
+                "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/4d9567c0e83f325849e948960382c9cde612d474",
+                "reference": "4d9567c0e83f325849e948960382c9cde612d474",
                 "shasum": ""
             },
             "require": {
@@ -98,13 +98,13 @@
                 }
             ],
             "description": "Change namespace of libraries to plugin namespace",
-            "homepage": "https://github.com/studer-raimann/LibrariesNamespaceChanger",
+            "homepage": "https://github.com/fluxfw/LibrariesNamespaceChanger",
             "keywords": [
                 "changer",
                 "libraries",
                 "namespace"
             ],
-            "time": "2021-01-25T06:48:05+00:00"
+            "time": "2021-03-03T09:56:22+00:00"
         }
     ],
     "packages-dev": [],
