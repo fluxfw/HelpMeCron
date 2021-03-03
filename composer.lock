@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00188b3ed103b12454cb4e02feb76db1",
+    "content-hash": "7de1b3fa8fef66b1d969701f3a9b613d",
     "packages": [
         {
             "name": "srag/generateplugininfoshelper",
-            "version": "2.6.2",
+            "version": "2.9.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/studer-raimann/GeneratePluginInfosHelper.git",
-                "reference": "c27b765782c9533f6f6f67e2b1a705f52df377a1"
+                "url": "https://github.com/fluxfw/GeneratePluginInfosHelper.git",
+                "reference": "0fda4a1cb03f588afe1fef352fde9601648f6c4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studer-raimann/GeneratePluginInfosHelper/zipball/c27b765782c9533f6f6f67e2b1a705f52df377a1",
-                "reference": "c27b765782c9533f6f6f67e2b1a705f52df377a1",
+                "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/0fda4a1cb03f588afe1fef352fde9601648f6c4e",
+                "reference": "0fda4a1cb03f588afe1fef352fde9601648f6c4e",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,8 @@
             },
             "type": "library",
             "extra": {
-                "generate_plugin_readme_template": "SRAG_LIBRARY"
+                "generate_plugin_readme_template": "SRAG_LIBRARY",
+                "long_description_template": "src/LONG_DESCRIPTION.md"
             },
             "autoload": {
                 "psr-4": {
@@ -45,27 +46,27 @@
                 }
             ],
             "description": "Automatic generate plugin infos such README.md, plugin.php, plugin.xml, ... from composer.json",
-            "homepage": "https://github.com/studer-raimann/GeneratePluginInfosHelper",
+            "homepage": "https://github.com/fluxfw/GeneratePluginInfosHelper",
             "keywords": [
                 "Infos",
                 "generate",
                 "helper",
                 "plugin"
             ],
-            "time": "2020-11-30T14:15:16+00:00"
+            "time": "2021-03-03T09:17:27+00:00"
         },
         {
             "name": "srag/librariesnamespacechanger",
-            "version": "0.14.2",
+            "version": "0.15.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/studer-raimann/LibrariesNamespaceChanger.git",
-                "reference": "196916a264362f10fe508f718c5e939955678c5a"
+                "url": "https://github.com/fluxfw/LibrariesNamespaceChanger.git",
+                "reference": "4d9567c0e83f325849e948960382c9cde612d474"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studer-raimann/LibrariesNamespaceChanger/zipball/196916a264362f10fe508f718c5e939955678c5a",
-                "reference": "196916a264362f10fe508f718c5e939955678c5a",
+                "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/4d9567c0e83f325849e948960382c9cde612d474",
+                "reference": "4d9567c0e83f325849e948960382c9cde612d474",
                 "shasum": ""
             },
             "require": {
@@ -76,7 +77,8 @@
             },
             "type": "library",
             "extra": {
-                "generate_plugin_readme_template": "SRAG_LIBRARY"
+                "generate_plugin_readme_template": "SRAG_LIBRARY",
+                "long_description_template": "src/LONG_DESCRIPTION.md"
             },
             "autoload": {
                 "psr-4": {
@@ -96,13 +98,13 @@
                 }
             ],
             "description": "Change namespace of libraries to plugin namespace",
-            "homepage": "https://github.com/studer-raimann/LibrariesNamespaceChanger",
+            "homepage": "https://github.com/fluxfw/LibrariesNamespaceChanger",
             "keywords": [
                 "changer",
                 "libraries",
                 "namespace"
             ],
-            "time": "2020-11-13T09:54:27+00:00"
+            "time": "2021-03-03T09:56:22+00:00"
         }
     ],
     "packages-dev": [],

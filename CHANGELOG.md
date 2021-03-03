@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.3.3]
+- Update project url
+
 ## [1.3.2]
 - Update readme and keywords
 
