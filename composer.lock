@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7de1b3fa8fef66b1d969701f3a9b613d",
+    "content-hash": "c6a0e865c0b9b2a44ac945c30bbdf95c",
     "packages": [
         {
             "name": "srag/generateplugininfoshelper",
-            "version": "2.9.4",
+            "version": "2.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxfw/GeneratePluginInfosHelper.git",
-                "reference": "0fda4a1cb03f588afe1fef352fde9601648f6c4e"
+                "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/0fda4a1cb03f588afe1fef352fde9601648f6c4e",
-                "reference": "0fda4a1cb03f588afe1fef352fde9601648f6c4e",
+                "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
+                "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,7 @@
             },
             "type": "library",
             "extra": {
-                "generate_plugin_readme_template": "SRAG_LIBRARY",
+                "generate_plugin_readme_template": "LIBRARY",
                 "long_description_template": "src/LONG_DESCRIPTION.md"
             },
             "autoload": {
@@ -53,20 +53,20 @@
                 "helper",
                 "plugin"
             ],
-            "time": "2021-03-03T09:17:27+00:00"
+            "time": "2021-03-23T12:25:52+00:00"
         },
         {
             "name": "srag/librariesnamespacechanger",
-            "version": "0.15.1",
+            "version": "0.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxfw/LibrariesNamespaceChanger.git",
-                "reference": "4d9567c0e83f325849e948960382c9cde612d474"
+                "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/4d9567c0e83f325849e948960382c9cde612d474",
-                "reference": "4d9567c0e83f325849e948960382c9cde612d474",
+                "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
+                "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
                 "shasum": ""
             },
             "require": {
@@ -77,7 +77,7 @@
             },
             "type": "library",
             "extra": {
-                "generate_plugin_readme_template": "SRAG_LIBRARY",
+                "generate_plugin_readme_template": "LIBRARY",
                 "long_description_template": "src/LONG_DESCRIPTION.md"
             },
             "autoload": {
@@ -104,7 +104,7 @@
                 "libraries",
                 "namespace"
             ],
-            "time": "2021-03-03T09:56:22+00:00"
+            "time": "2021-03-23T12:47:58+00:00"
         }
     ],
     "packages-dev": [],

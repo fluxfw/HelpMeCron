@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit7889eb5f4d28e9f7e0176b1a85d99756
 {
     public static $files = array (
-        '231e5ccad8887caed1f7fe98ab911458' => __DIR__ . '/../..' . '/../../../UIComponent/UserInterfaceHook/HelpMe/vendor/autoload.php',
+        '231e5ccad8887caed1f7fe98ab911458' => '/UIComponent/UserInterfaceHook/HelpMe/vendor/autoload.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -38,6 +38,7 @@ class ComposerStaticInit7889eb5f4d28e9f7e0176b1a85d99756
         'ilHelpMeCronPlugin' => __DIR__ . '/../..' . '/classes/class.ilHelpMeCronPlugin.php',
         'srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginPhpAndXml' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
         'srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginReadme' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
+        'srag\\GeneratePluginInfosHelper\\HelpMeCron\\UpdateVersion' => __DIR__ . '/..' . '/srag/generateplugininfoshelper/src/UpdateVersion.php',
         'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
         'srag\\LibrariesNamespaceChanger\\PHP72Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP72Backport.php',
         'srag\\LibrariesNamespaceChanger\\PHP7Backport' => __DIR__ . '/..' . '/srag/librariesnamespacechanger/src/PHP7Backport.php',

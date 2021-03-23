@@ -1,7 +1,7 @@
 {
   "name": "srag/helpmecron",
   "description": "HelpMeCron",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "extra": {
     "ilias_plugin": {
       "id": "srsucron",
@@ -11,7 +11,7 @@
       "slot": "Services/Cron/CronHook",
       "supports_cli_setup": true
     },
-    "generate_plugin_readme_template": "SRAG_ILIAS_PLUGIN",
+    "generate_plugin_readme_template": "ILIAS_PLUGIN",
     "long_description_template": "src/LONG_DESCRIPTION.md"
   },
   "type": "project",
@@ -33,9 +33,6 @@
       "role": "Developer"
     }
   ],
-  "support": {
-    "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLHM"
-  },
   "require": {
     "php": ">=7.2",
     "srag/generateplugininfoshelper": ">=0.1.0",
@@ -62,6 +59,9 @@
       "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
       "srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
       "srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginReadme::generatePluginReadme"
+    ],
+    "update-version": [
+      "srag\\GeneratePluginInfosHelper\\HelpMeCron\\UpdateVersion::updateVersion"
     ]
   }
 }
