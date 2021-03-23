@@ -1,26 +1,26 @@
 [
     {
         "name": "srag/generateplugininfoshelper",
-        "version": "2.10.1",
-        "version_normalized": "2.10.1.0",
+        "version": "2.10.2",
+        "version_normalized": "2.10.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/fluxfw/GeneratePluginInfosHelper.git",
-            "reference": "fe1a056d91a98442b8dd777aa2a9b0e8d00bd203"
+            "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/fe1a056d91a98442b8dd777aa2a9b0e8d00bd203",
-            "reference": "fe1a056d91a98442b8dd777aa2a9b0e8d00bd203",
+            "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
+            "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
             "shasum": ""
         },
         "require": {
             "php": ">=7.0"
         },
-        "time": "2021-03-05T14:06:43+00:00",
+        "time": "2021-03-23T12:25:52+00:00",
         "type": "library",
         "extra": {
-            "generate_plugin_readme_template": "SRAG_LIBRARY",
+            "generate_plugin_readme_template": "LIBRARY",
             "long_description_template": "src/LONG_DESCRIPTION.md"
         },
         "installation-source": "dist",
@@ -52,17 +52,17 @@
     },
     {
         "name": "srag/librariesnamespacechanger",
-        "version": "0.15.1",
-        "version_normalized": "0.15.1.0",
+        "version": "0.15.2",
+        "version_normalized": "0.15.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/fluxfw/LibrariesNamespaceChanger.git",
-            "reference": "4d9567c0e83f325849e948960382c9cde612d474"
+            "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/4d9567c0e83f325849e948960382c9cde612d474",
-            "reference": "4d9567c0e83f325849e948960382c9cde612d474",
+            "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
+            "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
             "shasum": ""
         },
         "require": {
@@ -71,10 +71,10 @@
         "require-dev": {
             "srag/generateplugininfoshelper": ">=0.1.0"
         },
-        "time": "2021-03-03T09:56:22+00:00",
+        "time": "2021-03-23T12:47:58+00:00",
         "type": "library",
         "extra": {
-            "generate_plugin_readme_template": "SRAG_LIBRARY",
+            "generate_plugin_readme_template": "LIBRARY",
             "long_description_template": "src/LONG_DESCRIPTION.md"
         },
         "installation-source": "dist",
