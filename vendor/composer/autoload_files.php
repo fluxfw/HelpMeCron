@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '231e5ccad8887caed1f7fe98ab911458' => '/UIComponent/UserInterfaceHook/HelpMe/vendor/autoload.php',
+    '231e5ccad8887caed1f7fe98ab911458' => $baseDir . '/../../../UIComponent/UserInterfaceHook/HelpMe/vendor/autoload.php',
 );
