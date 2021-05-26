@@ -1,23 +1,23 @@
 [
     {
         "name": "srag/generateplugininfoshelper",
-        "version": "2.10.2",
-        "version_normalized": "2.10.2.0",
+        "version": "2.10.3",
+        "version_normalized": "2.10.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fluxfw/GeneratePluginInfosHelper.git",
-            "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9"
+            "url": "https://github.com/fluxapps/GeneratePluginInfosHelper.git",
+            "reference": "ada645adb5b9afd7728b08273a47c4048fecb711"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/GeneratePluginInfosHelper/zipball/53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
-            "reference": "53b1ad2d1ccf3e90182262b9421024fe11ee00f9",
+            "url": "https://api.github.com/repos/fluxapps/GeneratePluginInfosHelper/zipball/ada645adb5b9afd7728b08273a47c4048fecb711",
+            "reference": "ada645adb5b9afd7728b08273a47c4048fecb711",
             "shasum": ""
         },
         "require": {
             "php": ">=7.0"
         },
-        "time": "2021-03-23T12:25:52+00:00",
+        "time": "2021-05-26T09:04:16+00:00",
         "type": "library",
         "extra": {
             "generate_plugin_readme_template": "LIBRARY",
@@ -35,14 +35,14 @@
         ],
         "authors": [
             {
-                "name": "studer + raimann ag - Team Custom 1",
-                "email": "support-custom1@studer-raimann.ch",
-                "homepage": "https://studer-raimann.ch",
+                "name": "fluxlabs",
+                "email": "support@fluxlabs.ch",
+                "homepage": "https://fluxlabs.ch",
                 "role": "Developer"
             }
         ],
         "description": "Automatic generate plugin infos such README.md, plugin.php, plugin.xml, ... from composer.json",
-        "homepage": "https://github.com/fluxfw/GeneratePluginInfosHelper",
+        "homepage": "https://github.com/fluxapps/GeneratePluginInfosHelper",
         "keywords": [
             "Infos",
             "generate",
@@ -52,17 +52,17 @@
     },
     {
         "name": "srag/librariesnamespacechanger",
-        "version": "0.15.2",
-        "version_normalized": "0.15.2.0",
+        "version": "0.15.3",
+        "version_normalized": "0.15.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fluxfw/LibrariesNamespaceChanger.git",
-            "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483"
+            "url": "https://github.com/fluxapps/LibrariesNamespaceChanger.git",
+            "reference": "2512c9f78690e99605b7a6a04f769dffff5679c9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fluxfw/LibrariesNamespaceChanger/zipball/cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
-            "reference": "cd3b0b6340fdc12ba7bfde0bcab3079d3b740483",
+            "url": "https://api.github.com/repos/fluxapps/LibrariesNamespaceChanger/zipball/2512c9f78690e99605b7a6a04f769dffff5679c9",
+            "reference": "2512c9f78690e99605b7a6a04f769dffff5679c9",
             "shasum": ""
         },
         "require": {
@@ -71,7 +71,7 @@
         "require-dev": {
             "srag/generateplugininfoshelper": ">=0.1.0"
         },
-        "time": "2021-03-23T12:47:58+00:00",
+        "time": "2021-05-26T09:03:36+00:00",
         "type": "library",
         "extra": {
             "generate_plugin_readme_template": "LIBRARY",
@@ -89,14 +89,14 @@
         ],
         "authors": [
             {
-                "name": "studer + raimann ag - Team Custom 1",
-                "email": "support-custom1@studer-raimann.ch",
-                "homepage": "https://studer-raimann.ch",
+                "name": "fluxlabs",
+                "email": "support@fluxlabs.ch",
+                "homepage": "https://fluxlabs.ch",
                 "role": "Developer"
             }
         ],
         "description": "Change namespace of libraries to plugin namespace",
-        "homepage": "https://github.com/fluxfw/LibrariesNamespaceChanger",
+        "homepage": "https://github.com/fluxapps/LibrariesNamespaceChanger",
         "keywords": [
             "changer",
             "libraries",
