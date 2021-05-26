@@ -1,6 +1,6 @@
 ### Base plugin
 
-First you need to install the [HelpMe](https://github.com/studer-raimann/HelpMe) plugin
+First you need to install the [HelpMe](https://github.com/fluxapps/HelpMe) plugin
 
 ### Cron jobs
 
