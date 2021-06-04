@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.3.8]
+- Change utils url
+
 ## [1.3.7]
 - Update urls
 
