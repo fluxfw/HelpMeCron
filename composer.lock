@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5dd19756c7b732a902a9484a3a8e8c68",
+    "content-hash": "ad73dd95d940ad2cecc799532cc03f05",
     "packages": [
         {
             "name": "srag/generateplugininfoshelper",
-            "version": "2.10.3",
+            "version": "2.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxapps/GeneratePluginInfosHelper.git",
-                "reference": "ada645adb5b9afd7728b08273a47c4048fecb711"
+                "reference": "fe5871f8f3881aea30ad290819a724824e304792"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxapps/GeneratePluginInfosHelper/zipball/ada645adb5b9afd7728b08273a47c4048fecb711",
-                "reference": "ada645adb5b9afd7728b08273a47c4048fecb711",
+                "url": "https://api.github.com/repos/fluxapps/GeneratePluginInfosHelper/zipball/fe5871f8f3881aea30ad290819a724824e304792",
+                "reference": "fe5871f8f3881aea30ad290819a724824e304792",
                 "shasum": ""
             },
             "require": {
@@ -53,20 +53,20 @@
                 "helper",
                 "plugin"
             ],
-            "time": "2021-05-26T09:04:16+00:00"
+            "time": "2021-06-04T08:21:59+00:00"
         },
         {
             "name": "srag/librariesnamespacechanger",
-            "version": "0.15.3",
+            "version": "0.15.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxapps/LibrariesNamespaceChanger.git",
-                "reference": "2512c9f78690e99605b7a6a04f769dffff5679c9"
+                "reference": "c9dba49e7f13cc2bd4d3b0ff3d5016c756212a97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxapps/LibrariesNamespaceChanger/zipball/2512c9f78690e99605b7a6a04f769dffff5679c9",
-                "reference": "2512c9f78690e99605b7a6a04f769dffff5679c9",
+                "url": "https://api.github.com/repos/fluxapps/LibrariesNamespaceChanger/zipball/c9dba49e7f13cc2bd4d3b0ff3d5016c756212a97",
+                "reference": "c9dba49e7f13cc2bd4d3b0ff3d5016c756212a97",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
                 "libraries",
                 "namespace"
             ],
-            "time": "2021-05-26T09:03:36+00:00"
+            "time": "2021-06-04T08:23:01+00:00"
         }
     ],
     "packages-dev": [],
