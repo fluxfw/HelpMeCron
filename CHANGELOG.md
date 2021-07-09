@@ -1,7 +1,7 @@
 # Changelog
 
 ## [1.4.0]
-- 
+- ILIAS 7 support
 
 ## [1.3.8]
 - Change utils url
