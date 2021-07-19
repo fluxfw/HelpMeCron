@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad73dd95d940ad2cecc799532cc03f05",
+    "content-hash": "6302b83a93b542fe09c694ab89d1584d",
     "packages": [
         {
             "name": "srag/generateplugininfoshelper",
-            "version": "2.10.4",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxapps/GeneratePluginInfosHelper.git",
-                "reference": "fe5871f8f3881aea30ad290819a724824e304792"
+                "reference": "13144e5285cfff557c30d1911a463ce643f672a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxapps/GeneratePluginInfosHelper/zipball/fe5871f8f3881aea30ad290819a724824e304792",
-                "reference": "fe5871f8f3881aea30ad290819a724824e304792",
+                "url": "https://api.github.com/repos/fluxapps/GeneratePluginInfosHelper/zipball/13144e5285cfff557c30d1911a463ce643f672a8",
+                "reference": "13144e5285cfff557c30d1911a463ce643f672a8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": ">=7.2"
             },
             "type": "library",
             "extra": {
@@ -53,24 +53,24 @@
                 "helper",
                 "plugin"
             ],
-            "time": "2021-06-04T08:21:59+00:00"
+            "time": "2021-07-19T09:10:32+00:00"
         },
         {
             "name": "srag/librariesnamespacechanger",
-            "version": "0.15.4",
+            "version": "0.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fluxapps/LibrariesNamespaceChanger.git",
-                "reference": "c9dba49e7f13cc2bd4d3b0ff3d5016c756212a97"
+                "reference": "d97481c40195feebd9c52cd17f3baa30309be5e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fluxapps/LibrariesNamespaceChanger/zipball/c9dba49e7f13cc2bd4d3b0ff3d5016c756212a97",
-                "reference": "c9dba49e7f13cc2bd4d3b0ff3d5016c756212a97",
+                "url": "https://api.github.com/repos/fluxapps/LibrariesNamespaceChanger/zipball/d97481c40195feebd9c52cd17f3baa30309be5e7",
+                "reference": "d97481c40195feebd9c52cd17f3baa30309be5e7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": ">=7.2"
             },
             "require-dev": {
                 "srag/generateplugininfoshelper": ">=0.1.0"
@@ -104,7 +104,7 @@
                 "libraries",
                 "namespace"
             ],
-            "time": "2021-06-04T08:23:01+00:00"
+            "time": "2021-07-19T09:09:05+00:00"
         }
     ],
     "packages-dev": [],
