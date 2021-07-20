@@ -9,9 +9,7 @@
       "ilias_min_version": "6.0",
       "ilias_max_version": "7.999",
       "slot": "Services/Cron/CronHook"
-    },
-    "generate_plugin_readme_template": "ILIAS_PLUGIN",
-    "long_description_template": "src/LONG_DESCRIPTION.md"
+    }
   },
   "type": "project",
   "keywords": [
@@ -56,8 +54,7 @@
   "scripts": {
     "pre-autoload-dump": [
       "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
-      "srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginPhpAndXml::generatePluginPhpAndXml",
-      "srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginReadme::generatePluginReadme"
+      "srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginPhpAndXml::generatePluginPhpAndXml"
     ],
     "update-version": [
       "srag\\GeneratePluginInfosHelper\\HelpMeCron\\UpdateVersion::updateVersion"
