@@ -7,8 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'ilHelpMeCronPlugin' => $baseDir . '/classes/class.ilHelpMeCronPlugin.php',
-    'srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginPhpAndXml' => $vendorDir . '/srag/generateplugininfoshelper/src/GeneratePluginPhpAndXml.php',
-    'srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginReadme' => $vendorDir . '/srag/generateplugininfoshelper/src/GeneratePluginReadme.php',
-    'srag\\GeneratePluginInfosHelper\\HelpMeCron\\UpdateVersion' => $vendorDir . '/srag/generateplugininfoshelper/src/UpdateVersion.php',
     'srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger' => $vendorDir . '/srag/librariesnamespacechanger/src/LibrariesNamespaceChanger.php',
 );
