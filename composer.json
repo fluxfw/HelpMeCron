@@ -1,16 +1,7 @@
 {
   "name": "srag/helpmecron",
   "description": "HelpMeCron",
-  "version": "1.4.0",
-  "extra": {
-    "ilias_plugin": {
-      "id": "srsucron",
-      "name": "HelpMeCron",
-      "ilias_min_version": "6.0",
-      "ilias_max_version": "7.999",
-      "slot": "Services/Cron/CronHook"
-    }
-  },
+  "version": "1.5.0",
   "type": "project",
   "keywords": [
     "cron",
@@ -20,19 +11,9 @@
     "plugin",
     "support"
   ],
-  "homepage": "https://github.com/fluxapps/HelpMeCron",
   "license": "GPL-3.0-only",
-  "authors": [
-    {
-      "name": "fluxlabs",
-      "email": "support@fluxlabs.ch",
-      "homepage": "https://fluxlabs.ch",
-      "role": "Developer"
-    }
-  ],
   "require": {
     "php": ">=7.2",
-    "srag/generateplugininfoshelper": ">=0.1.0",
     "srag/librariesnamespacechanger": ">=0.1.0"
   },
   "autoload": {
@@ -53,11 +34,7 @@
   },
   "scripts": {
     "pre-autoload-dump": [
-      "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
-      "srag\\GeneratePluginInfosHelper\\HelpMeCron\\GeneratePluginPhpAndXml::generatePluginPhpAndXml"
-    ],
-    "update-version": [
-      "srag\\GeneratePluginInfosHelper\\HelpMeCron\\UpdateVersion::updateVersion"
+      "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces"
     ]
   }
 }
